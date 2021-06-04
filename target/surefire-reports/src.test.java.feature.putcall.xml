@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/feature/putcall.feature" skipped="0" tests="1" time="5.228265">
+  <testcase classname="src.test.java.feature.putcall" name="Put User details" time="5.228265">
+    <system-out>* url 'https://reqres.in' ................................................. passed
+* header Content-Type = 'application/json' ................................ passed
+Given path 'api/users/2' .................................................. passed
+And request {"name":"morpheus","job":"zion resident"} ..................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

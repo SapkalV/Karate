@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>feature.createuser</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">0</div>
+            
+<div class="bg-danger" id="nav-fail">1</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-06-04 12:07:17 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item failed">
+<a href="#[1:6]">[1:6] create Mobile User </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">feature/createuser.feature</span><span class="feature-description">check Create User API</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:6]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">create Mobile User </span>
+</div>
+<div class="scenario-time failed">ms: 1264</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:6]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:6]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* url 'https://niva-devpro.figmd.com/mobile'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="preformatted" data-parent="1">12:07:16.062 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row" data-parent="[1:6]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* header Content-Type = 'application/json'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Given path '/api/users/createuser'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">And request {"email": "saurabh.tank@yopmail.com","password": "Niva@1234","deviceId": 5555 }</div>
+</div>
+<div class="time-cell passed">128</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">When method POST</div>
+</div>
+<div class="time-cell passed">1132</div>
+</div>
+<div class="preformatted" data-parent="5">12:07:16.228 request:
+1 &gt; POST https://niva-devpro.figmd.com/mobile/api/users/createuser
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 75
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: niva-devpro.figmd.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"email":"saurabh.tank@yopmail.com","password":"Niva@1234","deviceId":5555}
+
+12:07:17.327 response time in milliseconds: 1098.98
+1 &lt; 409
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 70
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Fri, 04 Jun 2021 06:37:17 GMT
+1 &lt; ETag: W/"46-10fvADpjeyh3Qga8rnR3xMpOOFM"
+1 &lt; Strict-Transport-Security: max-age=15724800; includeSubDomains
+1 &lt; Vary: Origin, Accept-Encoding
+1 &lt; X-Powered-By: Express
+{"error":{"message":"This email is already registered.","details":[]}}</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref failed">6</div>
+<div class="step-cell failed">Then Status 201</div>
+</div>
+<div class="time-cell failed">0</div>
+</div>
+<div class="preformatted" data-parent="6">createuser.feature:10 - no step-definition method match found for: Status 201</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

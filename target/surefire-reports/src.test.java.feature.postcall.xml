@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/feature/postcall.feature" skipped="0" tests="1" time="1.7815">
+  <testcase classname="src.test.java.feature.postcall" name="Create user" time="1.7815">
+    <system-out>* url 'https://reqres.in' ................................................. passed
+* header Content-Type = 'application/json' ................................ passed
+Given path 'api/users' .................................................... passed
+And request {"name":"Test1","job":"leader"} ............................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

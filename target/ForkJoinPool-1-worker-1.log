@@ -1,0 +1,117 @@
+18:45:21.228 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:45:22.335 request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+18:45:22.651 response time in milliseconds: 315.08
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3739
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 65a16e01ae7a4acf-HYD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:15:23 GMT
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=skWxMLrXjmNJF6PjdIxDmjNw7MULV0oMCYpGS9vg0k0licNcUvVSI%2FKQXZApJhR6rU5q%2FhqIpbaiSJaod96AJIxHrH2LmDyP0vdngfl8pwvUfPgZzqFz"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78c3150a00004acf11a87000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:45:22.697 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:45:22.700 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+18:45:22.827 response time in milliseconds: 122.62
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5651
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 65a16e02bf014ad4-HYD
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:15:23 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=3q9PC2ynHYJ1OW6EfkWs3n0WUUE90eOfDUMCZ0cRQpmv%2BMcFuYpSSFBlobXVlJb6xlh5DCI9jxhbfzvcnwHvB3LMeFaBJVMEr9Y90ozfU6C5VFF71k6a"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78c315af00004ad452a7b000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+ated!"}}
+
+18:45:05.548 assertion failed: path: $, actual: {"data":{"last_name":"Weaver","id":2,"avatar":"https:\/\/reqres.in\/img\/faces\/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https:\/\/reqres.in\/#support-heading"}}, expected: {id=2}, reason: all key-values did not match, expected has un-matched keys: [id]
+son: all key-values did not match, expected has un-matched keys: [id]
+che-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Length: 2
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 12:08:02 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=TeYqtp2shelNp7iKacjLLfIy%2FxqxaIPdC3KI3cTIw2Y1hZpNEIsKC4hT5WT3PsGP%2BCiMAS3BCptA1c%2BMVbUfd%2FVU1GpMQoU50G0hl6xMmRxXDzjVxIoZ"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78856c6400000db823a02000000001
+{}
+
+17:38:01.877 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:38:01.881 request:
+1 > GET https://reqres.in/api/users%3Fdelay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+17:38:03.030 response time in milliseconds: 1148.70
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: MISS
+1 < CF-RAY: 65a10b6009963188-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 12:08:04 GMT
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=PvsOLSu60pvYXkwFyjRvcrT1xuep7ZCf%2FXlPA0fxtAZY0Jg9k1wJ%2BtGm7NAvs4X5IlwCZgQFAdzfVOGUvK1PoohVyUE5qDzVaP9bruaRu8C1uI1SPsYq"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a7885700700003188350dd000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+17:38:03.031 status code was: 200, expected: 304, response time: 1149, url: https://reqres.in/api/users%3Fdelay=3, response: {"per_page":6,"total":12,"data":[{"color":"#98B2D1","year":2000,"name":"cerulean","id":1,"pantone_value":"15-4020"},{"color":"#C74375","year":2001,"name":"fuchsia rose","id":2,"pantone_value":"17-2031"},{"color":"#BF1932","year":2002,"name":"true red","id":3,"pantone_value":"19-1664"},{"color":"#7BC4C4","year":2003,"name":"aqua sky","id":4,"pantone_value":"14-4811"},{"color":"#E2583E","year":2004,"name":"tigerlily","id":5,"pantone_value":"17-1456"},{"color":"#53B0AE","year":2005,"name":"blue turquoise","id":6,"pantone_value":"15-5217"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}

@@ -1,0 +1,280 @@
+18:55:49.139 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:50.201 request:
+1 > DELETE https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+18:55:50.715 response time in milliseconds: 513.14
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d555ef02e23-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Fri, 04 Jun 2021 13:25:51 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=pvHD%2FGJjyX26AyJGzHyI6wlkloU6MTxYWIQN0Bs5j3bFW8GHh1zP2ziVSFL9na4Cm2ydiLqAnbWb%2FL1g8Eu6rYMZSXWVIeHrydFKWdI38M4Uhx9cUW8u"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78cca95600002e237f88c000000001
+
+18:55:50.779 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:50.783 request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+18:55:50.897 response time in milliseconds: 111.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4670
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 65a17d583bc20e20-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:52 GMT
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=4ejp9CJgcU8B158UymVqoRzcSbH76L6ADioKDLX2fgp53WdnHi9tvGXViNGjH%2BGHLoBvJOIQE7WHzhZV3uRktWoYDNcK4%2FxUDF4O7cK%2FokmajAFqchCr"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccab2000000e208ab7f000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:55:50.960 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:50.964 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+
+18:55:51.029 response time in milliseconds: 64.22
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3151
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 65a17d591dbf0dfb-BOM
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:52 GMT
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=%2B%2Bznic%2BH9hfLWsXKpEkF4QSQuR%2FqWOc1ld80EKo1Ayu%2BZvBfiMDo4yiiIsfM9buBQTDrdOL9iwfzoXXC1PrrL11cLtDnfjK9H%2FZtcNaaCH9oImZp0PxK"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccabaf00000dfb31a9c000000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:55:51.057 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:51.073 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 31
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"name":"Test1","job":"leader"}
+
+18:55:51.467 response time in milliseconds: 393.76
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d59ff280dbc-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 81
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:52 GMT
+1 < Etag: W/"51-lCgC8DYQmKU9GXzVzTjkcPOF7Ms"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=qJPTUbJZ9PwxIh05IPu2NGo2p2TfmG%2BF1MOrBh3YvlP3GfmOAa4JiKC9C9FcnpkZS6PumxC8GZQRoVcn863cjKIwvZbkkV8XLbm81Rqji9D21osvKY1c"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccac3f00000dbc2a374000000001
+{"name":"Test1","job":"leader","id":"547","createdAt":"2021-06-04T13:25:52.549Z"}
+
+18:55:51.480 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:51.484 request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"email":"eve.holt1@reqres.in","password":"pistol1"}
+
+18:55:52.117 response time in milliseconds: 631.28
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d5e2c732e64-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 57
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:53 GMT
+1 < Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=ZQsd06sHtn8sMNOKrxwLuhGcINYnvL5gzoPoV978ekxvqBQbmUF8hJ%2FXGZtlT0S%2FO8WnUP0xBBu1fkvvym%2BoqtUvoEmynIzhg01dD%2F172v%2BLCmmx1stq"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccaedd00002e647f97e000000001
+{"error":"Note: Only defined users succeed registration"}
+
+18:55:52.118 status code was: 400, expected: 200, response time: 631, url: https://reqres.in/api/register, response: {"error":"Note: Only defined users succeed registration"}
+18:55:52.134 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:52.137 request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 31
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"email":"eve.holt1@reqres.in"}
+
+18:55:52.463 response time in milliseconds: 325.37
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d60697d0e58-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:53 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=VJDhiPWf8dzv8j1Xh4PIxkoi3KXY%2BGInFLvYng8glAHasHbir6ext%2FSeMnJURHUSn9lugJs4SxvYncjJEf%2Fwo%2BMYbouPU0f8meHHtzr7x3CU6lNVKGSi"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccb03d00000e58ba05a000000001
+{"error":"Missing password"}
+
+18:55:52.470 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:52.473 request:
+1 > POST https://reqres.in/api/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 52
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"email":"eve.holt1@reqres.in","password":"pistol1"}
+
+18:55:52.806 response time in milliseconds: 331.96
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d629e9331b2-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 26
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:53 GMT
+1 < Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=5K7IpXrqfa2krEtFhG0TbZIYjy0hLiZ%2BFFlURHkgubwVGzIsduXt08wvNmEVOET1TkB97NSHwWmZeqLvNLyvnzVE%2BfxxgLb8U0D5A%2F6kxMrc5crxOFiQ"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccb19b000031b262bb6000000001
+{"error":"user not found"}
+
+18:55:52.807 status code was: 400, expected: 200, response time: 332, url: https://reqres.in/api/login, response: {"error":"user not found"}
+18:55:52.814 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:52.816 request:
+1 > POST https://reqres.in/api/register
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 31
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"email":"eve.holt1@reqres.in"}
+
+18:55:53.149 response time in milliseconds: 333.18
+1 < 400
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d64aee90e14-BOM
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:54 GMT
+1 < Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=%2BZMo40ViMUq0XetmXUwESseeOD9Y4ROTrB8J3CM1bNbnZtQQHmspWHfRBKbstl5x9k1dbHTQHaZTPaHrz5SvQH%2F9Ajgfj2sNHxjWknrDpKhh9wRJQtXY"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccb2e400000e14d913b000000001
+{"error":"Missing password"}
+
+18:55:53.198 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+18:55:53.200 request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_291)
+{"name":"morpheus","job":"zion resident"}
+
+18:55:53.522 response time in milliseconds: 320.30
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 65a17d670819321e-BOM
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 04 Jun 2021 13:25:54 GMT
+1 < Etag: W/"50-LVk4hsCKkkuOvkxKsIwIeQ/ciAk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=FMh6aJWrPKz8PMkawgRAGvSsoOuyoaV%2BEmI4C%2FV2bP0vN66iZ80BMVAt9750%2B8yaOTUqcsfzoTmGwpDCeX6ESIREld8ICQ9Yz%2FmhjqV1rZvLzlFPYROO"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+1 < cf-request-id: 0a78ccb4690000321e639bf000000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2021-06-04T13:25:54.607Z"}
+
